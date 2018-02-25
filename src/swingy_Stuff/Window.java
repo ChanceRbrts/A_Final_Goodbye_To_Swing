@@ -92,7 +92,7 @@ public class Window extends JFrame {
 					if (offsetY != 0){
 						trueY -= h/4;
 						addToArrayList(xPoints, new int[]{3*w/4, w/2, w/4});
-						addToArrayList(yPoints, new int[]{-h/4, 0, h/4});
+						addToArrayList(yPoints, new int[]{h/4, 0, -h/4});
 					}
 					Path2D.Double path = new Path2D.Double();
 					path.moveTo(xPoints.get(0)-trueX, yPoints.get(0)-trueY);
